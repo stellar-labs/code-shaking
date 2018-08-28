@@ -1,0 +1,29 @@
+{
+	"name": "code-shaking",
+	"version": "0.1.0",
+	"description": "Use puppeteer to return the useful code from an URL and assets names, asynchronously.",
+	"main": "lib/index.js",
+	"repository": "https://github.com/stellar-labs/code-shaking",
+	"author": "khalyomede",
+	"license": "MIT",
+	"dependencies": {
+		"multislice-string": "^0.2.2",
+		"puppeteer": "1.*"
+	},
+	"devDependencies": {
+		"@types/node": "^10.9.3",
+		"babel-core": "6.*",
+		"babel-preset-env": "1.*",
+		"babel-preset-latest-node": "1.*",
+		"gulp": "3.*",
+		"gulp-babel": "7.*",
+		"typescript": "^3.0.1"
+	},
+	"scripts": {
+		"tsc": "tsc",
+		"build": "npm run tsc"
+	},
+	"engines": {
+		"node": ">=7.6.0"
+	}
+}
